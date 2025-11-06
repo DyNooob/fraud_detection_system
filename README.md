@@ -66,10 +66,10 @@ scikit-learn >= 1.0.0
 jieba >= 0.42.0
 gensim >= 4.0.0
 matplotlib >= 3.5.0
-\`\`\`
+```
 
 ### 运行步骤
-\`\`\`bash
+```bash
 # 特征提取
 python tfidf_feature_extraction.py
 python word2vec_feature_extraction.py
