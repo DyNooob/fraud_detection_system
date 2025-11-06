@@ -22,7 +22,7 @@
 ---
 
 ## 文件结构
-\`\`\`
+```
 fraud_detection_system/
 ├── 核心代码/
 │   ├── tfidf_feature_extraction.py
@@ -50,17 +50,15 @@ fraud_detection_system/
 │   ├── confusion_matrix.png
 │   ├── confidence_analysis.png
 │   └── ...
-└── 评估报告/
-    ├── classification_report.txt
-    └── evidence_analysis_report.txt
-\`\`\`
-
+其中 mini_bert_scam_model 因Github上传限制，已传至百度网盘
+```
+mini_bert_scam_model 文件夹链接：https://pan.baidu.com/s/1bkYAPsxo7XLs4lzLSo0Pbw?pwd=tli1 
 ---
 
 ## 快速开始
 
 ### 环境依赖
-\`\`\`bash
+```bash
 Python >= 3.8
 torch >= 1.9.0
 transformers >= 4.20.0
@@ -85,7 +83,7 @@ python key_evidence_extraction.py
 
 # 效率测试
 python efficiency_test.py
-\`\`\`
+```
 
 ---
 
